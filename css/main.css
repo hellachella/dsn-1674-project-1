@@ -18,7 +18,9 @@ h1, h2, h3{
 
 hr{
 	width: 90%;
-	color: #ffe524;;
+	background: #ffe524;
+	border: none;
+	height: 3px;
 }
 
 
