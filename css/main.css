@@ -143,3 +143,12 @@ cite{
 main{
 	padding: 10px;
 }
+
+dl dt{
+	font-weight: bold;
+}
+
+dd{
+	padding-left: 0px;
+	margin: 0;
+}
