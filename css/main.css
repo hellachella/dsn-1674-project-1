@@ -16,6 +16,11 @@ h1, h2, h3{
 	color: #b32f52;
 }
 
+hr{
+	width: 90%;
+	color: #ffe524;;
+}
+
 
 body{
 	font-family: Georgia, serif;
@@ -56,14 +61,24 @@ header, footer{
 	background-color: #ffe524;
 }
 
-header{
-}
+
 
 h1{
 	text-align: center;
 	line-height:1.5em;
 
 }
+
+
+footer{
+	padding: 10px;
+	text-align: center;
+}
+
+footer a{
+	color: #b32f52;
+}
+
 
 /************  Nav ***********/
 
@@ -99,3 +114,6 @@ nav ul li:hover{
 	display: block;
 }
 
+main{
+	padding: 10px;
+}
