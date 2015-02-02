@@ -122,9 +122,20 @@ nav ul li:hover{
 
 /************  Main ***********/
 
+blockquote{
+	color: #b2a215;
+	text-align:center;
+}
+
 .quo-mark{
 	text-align: center;
 	display: block;
+	font-size: 2em;
+}
+
+cite{
+	display: block;
+	text-align: center;
 }
 
 main{
