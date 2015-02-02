@@ -35,12 +35,20 @@ div#wrapper{
 	width: 320px;
 	margin: 0 auto;
 	background-color: #fff;
+
+	-webkit-transition: all 5s ease;
+				-moz-transition: all .5s ease;
+				transition: all .5s ease;
 }
 
 		@media only screen and (min-width: 600px){
 
 			div#wrapper{
 				width: 600px;
+
+				-webkit-transition: all 5s ease;
+				-moz-transition: all .5s ease;
+				transition: all .5s ease;
 			}
 		}
 
@@ -61,6 +69,7 @@ figure{
 	padding: 10px;
 	border-radius: 10px;
 	border: 1px solid #b2a215;
+	margin: 0;
 }
 
 figcaption{
