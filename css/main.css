@@ -6,8 +6,19 @@ h1, h2, h3{
 }
 
 body{
-
 	font-family: Georgia, serif;
+	line-height: 1.5em;
+}
+
+div#wrapper{
+
+	width: 320px;
+}
+
+@media only screen and (min-width: 600px){
+	body{
+		width: 600px;
+	}
 }
 
 /************  Header ***********/
