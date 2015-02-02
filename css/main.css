@@ -1,3 +1,13 @@
+/*     Notes to self :
+
+-You left off styling the navbar.
+-Next: make it fit nicely in the header.
+
+-make sure to add keyword tags/italics/data tags to html.
+
+***********/
+
+
 /************  Defaults ***********/
 
 
@@ -26,6 +36,11 @@ div#wrapper{
 				width: 600px;
 			}
 		}
+
+
+.italic{
+	font-style: italic;
+}
 
 /************  Images & Figure ***********/
 
@@ -79,5 +94,8 @@ nav ul li:hover{
 
 /************  Main ***********/
 
-
+.quo-mark{
+	text-align: center;
+	display: block;
+}
 
