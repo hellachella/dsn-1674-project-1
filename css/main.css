@@ -13,12 +13,17 @@ body{
 div#wrapper{
 
 	width: 320px;
+	margin: 0 auto;
 }
 
 @media only screen and (min-width: 600px){
-	body{
+	div#wrapper{
 		width: 600px;
 	}
+}
+
+img{
+	width: 100%;
 }
 
 /************  Header ***********/
