@@ -54,6 +54,19 @@ img{
 	width: 100%;
 }
 
+figure{
+	background-color: #fffce0;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #b2a215;
+}
+
+figcaption{
+	font-style: italic;
+	text-align: center;
+	font-size: 0.8em;
+}
+
 /************  Header & Footer ***********/
 
 header, footer{
