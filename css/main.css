@@ -3,7 +3,9 @@
 
 h1, h2, h3{
 	font-family: "Sigmar One", sans-serif;
+	color: #b32f52;
 }
+
 
 body{
 	font-family: Georgia, serif;
@@ -16,25 +18,32 @@ div#wrapper{
 	margin: 0 auto;
 }
 
-@media only screen and (min-width: 600px){
-	div#wrapper{
-		width: 600px;
-	}
-}
+		@media only screen and (min-width: 600px){
+
+			div#wrapper{
+				width: 600px;
+			}
+		}
 
 /************  Images & Figure ***********/
 
 img{
+
 	width: 100%;
 }
 
 /************  Header & Footer ***********/
 
 header, footer{
+
 	background-color: #ffe524;
 }
 
 /************  Nav ***********/
+
+ul{
+	list-style-type: none;
+}
 
 
 /************  Main ***********/
