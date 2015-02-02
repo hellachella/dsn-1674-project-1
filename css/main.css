@@ -9,7 +9,19 @@
 
 
 /************  Defaults ***********/
+header, div#wrapper, body, html{
+	margin-top: 0px;
+	padding-top: 0px;
+}
 
+
+body{
+	font-family: Georgia, serif;
+	line-height: 1.5em;
+	background-color: #dadada;
+	margin: 0;
+
+}
 
 h1, h2, h3{
 	font-family: "Sigmar One", sans-serif;
@@ -24,17 +36,15 @@ hr{
 }
 
 
-body{
-	font-family: Georgia, serif;
-	line-height: 1.5em;
-	background-color: #dadada;
-}
 
 div#wrapper{
 
 	width: 320px;
 	margin: 0 auto;
 	background-color: #fff;
+
+
+
 
 	-webkit-transition: all 5s ease;
 				-moz-transition: all .5s ease;
@@ -80,17 +90,15 @@ figcaption{
 
 /************  Header & Footer ***********/
 
-header, footer{
-
+header, footer, nav ul{
 	background-color: #ffe524;
+	margin: 0;
 }
-
 
 
 h1{
 	text-align: center;
 	line-height:1.5em;
-
 }
 
 
@@ -110,7 +118,10 @@ ul{
 	list-style-type: none;
 	color: #fff;
 	text-align: center;
-	padding: 0;
+	display: block;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom:15px;
 }
 
 nav ul li{
