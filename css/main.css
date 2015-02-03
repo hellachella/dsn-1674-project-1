@@ -32,7 +32,6 @@ hr{
 
 
 div#wrapper{
-
 	width: 320px;
 	margin: 0 auto;
 	background-color: #fff;
@@ -111,6 +110,8 @@ nav ul li{
 nav ul li:hover{
 	background-color:#cc3865;
 }
+
+
 
 
 
