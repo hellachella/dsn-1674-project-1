@@ -24,7 +24,7 @@ h1, h2, h3{
 }
 
 hr{
-	width: 90%;
+
 	background: #ffe524;
 	border: none;
 	height: 3px;
@@ -150,6 +150,10 @@ cite{
 
 main{
 	padding: 10px;
+}
+
+dl{
+	padding-bottom: 15px;
 }
 
 dl dt{
