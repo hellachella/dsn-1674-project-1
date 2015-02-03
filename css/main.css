@@ -2,10 +2,10 @@
 
               /************  Defaults ***********/
 
-html{
-	background-color: red;
+/*html{
+
 padding: 0px;
-}
+}*/
 
 
 body{
@@ -35,6 +35,7 @@ div#wrapper{
 	width: 320px;
 	margin: 0 auto;
 	background-color: #fff;
+	padding: 0px;
 
 	-webkit-transition: all 5s ease;
 				-moz-transition: all .5s ease;
@@ -43,14 +44,15 @@ div#wrapper{
 
 		@media only screen and (min-width: 600px){
 
-			div#wrapper{
-				width: 600px;
+		div#wrapper{
+			width: 600px;
 
-				-webkit-transition: all 5s ease;
-				-moz-transition: all .5s ease;
-				transition: all .5s ease;
-			}
-		}
+
+}
+
+
+
+}/*end query*/
 
 
 
@@ -68,8 +70,16 @@ header, footer, nav ul{
 h1{
 	text-align: center;
 	line-height:1.5em;
+					margin-bottom: 5px;
 }
 
+		@media only screen and (min-width: 600px){
+			h1{
+				font-size: 3em;
+				vertical-align: center;
+
+			}
+		}
 
 footer{
 	padding: 10px;
