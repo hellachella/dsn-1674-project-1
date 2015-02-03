@@ -1,14 +1,6 @@
-/*     Notes to self :
-
--You left off styling the navbar.
--Next: make it fit nicely in the header.
-
--make sure to add keyword tags/italics/data tags to html.
-
-***********/
 
 
-/************  Defaults ***********/
+              /************  Defaults ***********/
 
 html{
 	background-color: red;
@@ -39,17 +31,11 @@ hr{
 }
 
 
-
 div#wrapper{
 
 	width: 320px;
 	margin: 0 auto;
 	background-color: #fff;
-
-
-
-
-
 
 	-webkit-transition: all 5s ease;
 				-moz-transition: all .5s ease;
@@ -68,32 +54,11 @@ div#wrapper{
 		}
 
 
-.italic{
-	font-style: italic;
-}
 
-/************  Images & Figure ***********/
 
-img{
+             /************  Header & Footer ***********/
 
-	width: 100%;
-}
 
-figure{
-	background-color: #fffce0;
-	padding: 10px;
-	border-radius: 10px;
-	border: 1px solid #b2a215;
-	margin: 0;
-}
-
-figcaption{
-	font-style: italic;
-	text-align: center;
-	font-size: 0.8em;
-}
-
-/************  Header & Footer ***********/
 
 header, footer, nav ul{
 	background-color: #ffe524;
@@ -117,7 +82,8 @@ footer a{
 }
 
 
-/************  Nav ***********/
+
+              /************  Nav ***********/
 
 ul{
 	list-style-type: none;
@@ -147,7 +113,13 @@ nav ul li:hover{
 }
 
 
-/************  Main ***********/
+
+              /************  Main ***********/
+
+.italic{
+	font-style: italic;
+}
+
 
 blockquote{
 	color: #b2a215;
@@ -176,4 +148,30 @@ dl dt{
 dd{
 	padding-left: 0px;
 	margin: 0;
+}
+
+
+              /************  Images & Figure ***********/
+
+img{
+
+	width: 100%;
+}
+
+figure{
+	background-color: #fffce0;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #b2a215;
+	margin: 0;
+}
+
+figcaption{
+	font-style: italic;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+h2, h3{
+	padding-top: 15px;
 }
