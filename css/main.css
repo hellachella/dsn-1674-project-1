@@ -9,9 +9,10 @@
 
 
 /************  Defaults ***********/
-header, div#wrapper, body, html{
-	margin-top: 0px;
-	padding-top: 0px;
+
+html{
+	background-color: red;
+padding: 0px;
 }
 
 
@@ -19,13 +20,15 @@ body{
 	font-family: Georgia, serif;
 	line-height: 1.5em;
 	background-color: #dadada;
-	margin: 0;
+	margin: 0px;
+
 
 }
 
 h1, h2, h3{
 	font-family: "Sigmar One", sans-serif;
 	color: #b32f52;
+	margin-top:0px;
 }
 
 hr{
@@ -42,6 +45,8 @@ div#wrapper{
 	width: 320px;
 	margin: 0 auto;
 	background-color: #fff;
+
+
 
 
 
@@ -92,7 +97,7 @@ figcaption{
 
 header, footer, nav ul{
 	background-color: #ffe524;
-	margin: 0;
+	margin: 0px;
 }
 
 
