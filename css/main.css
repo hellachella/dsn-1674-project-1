@@ -11,7 +11,7 @@ padding: 0px;
 body{
 	font-family: Georgia, serif;
 	line-height: 1.5em;
-	background-color: #dadada;
+	background-color: #fff;
 	margin: 0px;
 
 
@@ -23,32 +23,9 @@ h1, h2, h3{
 	margin-top:0px;
 }
 
-hr{
-
-	background: #ffe524;
-	border: none;
-	height: 3px;
-}
 
 
-div#wrapper{
-	width: 320px;
-	margin: 0 auto;
-	background-color: #fff;
-	padding: 0px;
 
-	-webkit-transition: all 5s ease;
-				-moz-transition: all .5s ease;
-				transition: all .5s ease;
-}
-
-		@media only screen and (min-width: 600px){
-
-		div#wrapper{
-			width: 600px;
-
-
-}
 
 
 
@@ -80,6 +57,13 @@ h1{
 
 			}
 		}
+
+h2{
+
+border-top: 3px solid #ffe524;
+border-width: 80%;
+}
+
 
 footer{
 	padding: 10px;
@@ -135,6 +119,11 @@ nav ul li:hover{
 blockquote{
 	color: #b2a215;
 	text-align:center;
+}
+
+blockquote p{
+
+margin:0;
 }
 
 .quo-mark{
